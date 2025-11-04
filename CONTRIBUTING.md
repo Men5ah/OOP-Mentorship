@@ -57,7 +57,7 @@ You can do this with GitHub Desktop.
 2. You may get comments or requests to fix issues.
 3. Once approved your work will be merged into the main repository.
 
-> [!note] ANOTHER NOTE
+> [!note]
 > Always pull the latest changes from the main repository before submitting any code.
 >
 > Commit **only your own** work.
