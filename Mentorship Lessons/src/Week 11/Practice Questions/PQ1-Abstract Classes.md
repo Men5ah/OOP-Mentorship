@@ -43,16 +43,8 @@ public class Main {
 }
 ```
 
-
-
-
-
-
-
-
-
-
 ## ✅ Solution
+
 ```java
 abstract class Shape {
     abstract double area();

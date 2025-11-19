@@ -30,25 +30,6 @@ public class Main {
 }
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## ✅ Solution
 
 ```java

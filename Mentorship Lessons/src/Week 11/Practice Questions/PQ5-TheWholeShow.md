@@ -1,32 +1,34 @@
 # ⭐ PRACTICE QUESTION 5 (Hard)
 
-## Topic: Abstract class + Interface + Polymorphism + instanceof**
+## Topic: Abstract class + Interface + Polymorphism + instanceof
 
-- Create an abstract class Employee with:
+- Create an abstract class `Employee` with:
 
-fields: name, salary
+  - fields: `name`, `salary`
 
-abstract method: double bonus()
+  - **abstract method**: `double bonus()`
 
-Create an interface Taxable with:
+- Create an **interface** `Taxable` with:
 
-double taxAmount()
+  - `double taxAmount()`
 
-Create two subclasses:
+- Create two subclasses:
 
-Manager implements Taxable
+  - `Manager` implements Taxable
 
-Developer implements Taxable
+  - `Developer` implements Taxable
 
 Write a method that:
 
-Accepts an array of Employee
+- Accepts an array of `Employee`
 
-Prints bonus
+- Prints bonus
 
-If employee is Taxable, also prints taxAmount (use instanceof)
+- If employee is `Taxable`, also prints taxAmount (use instanceof)
 
-Starter Code
+### Starter Code
+
+```java
 abstract class Employee {
     protected String name;
     protected double salary;
@@ -64,8 +66,11 @@ public class Main {
         // TODO: call printDetails
     }
 }
+```
 
-✅ Solution
+## ✅ Solution
+
+```java
 abstract class Employee {
     protected String name;
     protected double salary;
@@ -134,3 +139,4 @@ public class Main {
         printDetails(staff);
     }
 }
+```
